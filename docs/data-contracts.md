@@ -76,12 +76,7 @@
   "layer": "int — 1到5",
   "name": "string — 层名（信息优先级/交互流程/空间分配/组件表达/视觉皮肤）",
   "decision_question": "string — 这层要回答的问题",
-  "locked_from_previous": {
-    "layer_1": "string | null",
-    "layer_2": "string | null",
-    "layer_3": "string | null",
-    "layer_4": "string | null"
-  },
+  "depends_on": ["int — 已锁定的上游层编号；按 DAG 依赖列出，如第3层为[2]，第5层为[3,4]"],
   "options": [
     {
       "id": "string — 唯一标识（如data-first）",

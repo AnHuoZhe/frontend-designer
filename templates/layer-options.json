@@ -1,10 +1,11 @@
 {
   "layer": 1,
   "name": "information-priority | interaction-flow | space-allocation | component-expression | visual-skin",
-  "depends_on": ["locked-upstream-layer-number"],
+  "decision_question": "the-decision-this-layer-must-answer",
+  "depends_on": [2],
   "options": [
-    {"id": "option-a", "label": "option-name", "description": "option-description", "ascii_layout": "ASCII-layout-or-flow", "suitable_for": "suitable-scenario"},
-    {"id": "option-b", "label": "option-name", "description": "option-description", "ascii_layout": "ASCII-layout-or-flow", "suitable_for": "suitable-scenario"},
-    {"id": "option-c", "label": "option-name", "description": "option-description", "ascii_layout": "ASCII-layout-or-flow", "suitable_for": "suitable-scenario"}
+    {"id": "option-a", "label": "option-name", "description": "option-description", "ascii_layout": "ASCII-layout-or-flow", "suitable_for": "suitable-scenario", "preference_match": false},
+    {"id": "option-b", "label": "option-name", "description": "option-description", "ascii_layout": "ASCII-layout-or-flow", "suitable_for": "suitable-scenario", "preference_match": false},
+    {"id": "option-c", "label": "option-name", "description": "option-description", "ascii_layout": "ASCII-layout-or-flow", "suitable_for": "suitable-scenario", "preference_match": false}
   ]
 }

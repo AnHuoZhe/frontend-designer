@@ -60,7 +60,7 @@
 二级：完整列表 + 统计
 ```
 
-用户选一后，该版的优先级逻辑写入 `.frontend-designer` 的 `layers.1_priority`。
+用户选一后，该版的优先级选择写入 `.frontend-designer` 的 `layers.1.id`。
 
 ## 第2层：交互流程
 

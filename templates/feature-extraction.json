@@ -8,7 +8,11 @@
       "method": "GET | POST | PUT | DELETE",
       "request_schema": {
         "path_params": [],
-        "query_params": [{"name": "parameter-name", "type": "string", "required": false, "default": "default-value-or-null"}],
+        "query_params": [
+          {"name": "parameter-name", "type": "string", "required": false, "default": "default-value-or-null"},
+          {"name": "page", "type": "int", "required": false, "default": 1},
+          {"name": "limit", "type": "int", "required": false, "default": 20}
+        ],
         "body": {"field-name": "field-type-or-shape"}
       },
       "response_schema": {"type": "object | list | paginated_list", "fields": ["response-field-name"]},
