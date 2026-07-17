@@ -18,6 +18,8 @@ metadata:
 
 与 forge 的区别：forge 做全栈（需求到部署），frontend-designer 只做前端设计（后端已就绪→生成前端）。
 
+**设计完成后，代码实现优先使用锻造（forge）流程**：任务拆解→TDD→审查→归档。加载 forge 的 CORE.md，按阶段D执行。参见 AnHuoZhe/forge。
+
 ## 核心流程
 
 ```
