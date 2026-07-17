@@ -1,0 +1,8 @@
+{
+  "project_type": "internal-tool | public-product | admin-panel | data-dashboard",
+  "target_user": {"role": "user-role", "tech_level": "low | medium | high", "frequency": "daily | weekly | occasional"},
+  "style_preference": "minimal | professional | playful | dark-professional",
+  "reference_products": ["reference-product-name"],
+  "tech_stack": {"framework": "react", "styling": "tailwind", "component_kit": "shadcn-ui"},
+  "confirmed_at": "ISO-8601-confirmation-time"
+}

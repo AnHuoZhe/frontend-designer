@@ -1,0 +1,10 @@
+{
+  "incomplete": false,
+  "layers": {
+    "1": {"id": "selected-layer-1-option", "rationale": "selection-reason"},
+    "2": {"id": "selected-layer-2-option", "rationale": "selection-reason"},
+    "3": {"id": "selected-layer-3-option", "rationale": "selection-reason"},
+    "4": {"id": "selected-layer-4-option", "rationale": "selection-reason"},
+    "5": {"id": "selected-layer-5-option", "rationale": "selection-reason"}
+  }
+}

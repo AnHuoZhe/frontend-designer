@@ -1,0 +1,23 @@
+{
+  "project": "project-name",
+  "framework": "FastAPI | Express | Flask | NestJS | manual",
+  "features": [
+    {
+      "name": "user-visible-feature-name",
+      "endpoint": "GET /api/resource",
+      "method": "GET | POST | PUT | DELETE",
+      "request_schema": {
+        "path_params": [],
+        "query_params": [{"name": "parameter-name", "type": "string", "required": false, "default": "default-value-or-null"}],
+        "body": {"field-name": "field-type-or-shape"}
+      },
+      "response_schema": {"type": "object | list | paginated_list", "fields": ["response-field-name"]},
+      "auth_required": false,
+      "pagination": "none | offset-limit | cursor",
+      "user_action": "user-action-in-the-interface",
+      "needs_ui": true,
+      "ui_pattern": "feature-type-from-component-mappings"
+    }
+  ],
+  "hidden_features": ["endpoint-or-feature-without-ui"]
+}
